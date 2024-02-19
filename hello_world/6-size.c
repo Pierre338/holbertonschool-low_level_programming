@@ -6,4 +6,5 @@
  * Return: Always 0 (Success)
  */
 
-int 
+int main ()
+
