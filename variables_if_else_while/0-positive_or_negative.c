@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* Positive anything is better than negative nothing */
+/*
+ * Positive anything is better than negative nothing
+ */
 
-/* Positive anything is better than negative nothing */
+/*
+ * Positive anything is better than negative nothing
+ */
 int main(void)
 {
 	int n;
