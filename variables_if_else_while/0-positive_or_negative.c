@@ -2,11 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Positive anything is better than negative nothing
- */
-
-/**
- * Positive anything is better than negative nothing
+ * main - Print positive negative zero
+ * Return: Always 0.
  */
 int main(void)
 {
