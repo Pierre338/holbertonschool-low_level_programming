@@ -5,19 +5,15 @@
  * Return: 0
  */
 int main(void)
-
 {
-	int n;
+	int n = 0;
 
-
-	if n = 0
-
+	for (n = 0; n < 10; n++)
 	{
-
-		printf("all single digit of <=10")
+	printf("%d", n);
+	}
+	printf("\n");
 
 	return (0);
-
-	}
 
 }
