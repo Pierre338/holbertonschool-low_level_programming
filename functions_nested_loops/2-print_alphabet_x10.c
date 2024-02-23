@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 : print x10 alphabet
- * Description : print_alphabet
+ *Description: print_alphabet
  * Return: Always 0.
  */
 void print_alphabet_x10(void)
