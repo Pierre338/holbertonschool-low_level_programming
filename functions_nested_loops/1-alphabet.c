@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * print_alphabet -  in lowercase with putchar
+ * Description: Print alphabet in lowercase with putchar
+ * Return: Always 0.
+ */
+void print_alphabet(void)
+{
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+	_putchar(letter);
+	letter++;
+	}
+
+	_putchar ('\n');
+}
