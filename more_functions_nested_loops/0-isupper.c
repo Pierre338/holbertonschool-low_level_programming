@@ -3,7 +3,7 @@
 /**
   * _isupper - a function that checks for uppercase character
   *
-  * @c: is a letter uppercase
+  * @C: is a letter uppercase
   *
   * Return: On 0 or 1
  */
