@@ -2,7 +2,8 @@
 
 /**
  * more_numbers(void) - print 10 times 0-14
- *
+ *@i: variable
+ *@n: autre variable
  * Return: Always 0.
  */
 
