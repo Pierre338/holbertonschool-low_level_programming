@@ -6,34 +6,20 @@
  * Return: Always 0.
  */
 
-	void more_numbers(void)
-
+void more_numbers(void)
 {
 	int i, n;
 
 		for (i = 0; i < 10; i++)
-
 		{
-
 			for (n = 0; n < 15; n++)
-
 				{
-
-					if (n < 10)
-
+					if (n > 9)
 					{
-
-						_putchar('0' + n);
-
+						_putchar((n / 10) + '0');
 					}
-
-					else
-
-					{
-					_putchar('1');
-					_putchar('0' + n - 10);
-					}
+					_putchar((n % 10) + '0');
 				}
-			_putchar('\n');
+		_putchar('\n');
 		}
 }
