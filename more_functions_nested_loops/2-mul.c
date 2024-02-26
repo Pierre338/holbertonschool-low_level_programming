@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul(int a, intb);
+ * mul - function than *
  *@a: first number
  *@b: second number
  * Return: return result.
