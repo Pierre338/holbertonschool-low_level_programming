@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints digits 0 9
- * @n: print digits 0 9
+ * @n: n est la variable digit
  * Return: 0
  */
 void print_numbers(void)
