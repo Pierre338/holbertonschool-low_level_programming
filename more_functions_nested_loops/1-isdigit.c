@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * _islower - a function that checks for lowercase character
+  * isdigit - a function that checks for a digit (0 through 9).
   *
-  * @c: is a letter, lowercase or uppercase
+  * @c: is a digit
   *
   * Return: On 0 or 1
  */
