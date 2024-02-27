@@ -2,7 +2,6 @@
 
 /**
  * print_diagonal - print diagonal
- *@n : variable
  * Return: Always 0.
  */
 
