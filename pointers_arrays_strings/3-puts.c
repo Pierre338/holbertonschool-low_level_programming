@@ -2,7 +2,7 @@
 
 /**
  * _puts - string fllw line to stoudt
- * @str
+ * @str : pointer
  * Return: Always 0.
  */
 
