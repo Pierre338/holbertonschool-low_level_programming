@@ -2,7 +2,7 @@
 
 /**
  * puts2 - print one on two
- *
+ * @str : pointer
  * Return: Always 0.
  */
 
