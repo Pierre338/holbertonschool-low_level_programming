@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * rev_string - reverse the string without print
+ * @s : variable
  * Return: Always 0.
  */
 
