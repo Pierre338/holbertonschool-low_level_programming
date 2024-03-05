@@ -1,23 +1,25 @@
+#include "main.h"
 /**
- * _strspn - l
+ * _strchr - loc c
+ *
  * @s: s
- * @accept: s
- * Return: n
+ * @c: c
+ *
+ * Return: a pointer
+ * @s. n
  */
 
-unsigned int _strspn(char *s, char *accept)
+char *_strchr(char *s, char c)
 {
-	unsigned int i, j;
-
-	i = 0;
-	while (s[i] != '\0')
+	while (*s)
 	{
-		j = 0;
-		while (accept[j] != '\0' && s[i] != accept[j])
-			j++;
-		if (accept[j] == '\0')
-			return (i);
-		i++;
+		if (*s != c)
+			s++;
+		else
+			return (s);
 	}
-	return (i);
+	if (c == '\0')
+		return (s);
+
+	return (NULL);
 }
