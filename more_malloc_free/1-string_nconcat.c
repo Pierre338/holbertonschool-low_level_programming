@@ -3,35 +3,49 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - c2s
- * @s1: s2
- * @s2: s1
- * @n: n
- * Return: s
+ * string_nconcat - e
+ *@s1: s1
+ *@s2: s2
+ *@n: n
+ * Return: p
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *p;
-	unsigned int t1, t2, i;
+	char *strnew = NULL;
+	unsigned int i, n1, n2, j, count, palabras;
 
+	count = 0;
+	palabras = 0;
 	if (s1 == NULL)
-		t1 = 0;
-	for (t1 = 0; s1[t1]; ++t1)
-		;
+		s1 = "";
 	if (s2 == NULL)
-		t2 = 0;
-	for (t2 = 0; s2[t2]; ++t2)
+		s2 = "";
+	for (n1 = 0; s1[n1] != '\0'; n1++)
 		;
-	if (t2 > n)
-		t2 = n;
-	p = malloc((t1 + t2 + 1) * sizeof(char));
-	if (p == NULL)
+	for (n2 = 0; s2[n2] != '\0'; n2++)
+		;
+	if (n >= n2)
+	{
+		palabras = n2;
+
+	} else
+	{
+		for (n2 = 0; n2 < n; n2++)
+			palabras++;
+	}
+	strnew = (char *)malloc((n1 + n2 + 1) * sizeof(char));
+	if (strnew == NULL)
+	{
 		return (NULL);
-	for (i = 0; i < t1; i++)
-		p[i] = s1[i];
-	for (i = 0; i < t2; i++)
-		p[t1 + i] = s2[i];
-	p[t1 + t2] = '\0';
-	return (p);
+	}
+	for (i = 0; s1[i] != '\0'; i++)
+		strnew[i] = s1[i];
+	for (j = 0; j < palabras; i++)
+	{
+		strnew[i] = s2[count];
+		count++;
+		j++;
+	}
+	strnew[i] = '\0';
+	return (strnew);
 }
